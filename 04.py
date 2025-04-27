@@ -25,7 +25,7 @@ while True: # Inicia el programa
         break # Finaliza el programa luego de mostrar la tabla de verdad
 
     # Si elige alguna operación que necesita dos variables
-    elif operacion in ['1','2','3','4','5','6','7']: # Verifica si la operación está en el rango de 1 a 7
+    elif operacion in ['1','2','4','5','6','7']: # Verifica si la operación está en el rango de 1 a 7
         operaciones = {'1': "AND",'2': "OR",'4': "NAND",'5': "NOR",'6': "XOR",'7': "XNOR"}
         print ("A | B |", operaciones[operacion]) # Encabezado de la tabla
         for a in [False,True]: # Recorre valores posibles de la variable A
