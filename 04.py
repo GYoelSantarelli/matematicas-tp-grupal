@@ -18,10 +18,11 @@ while True: # Inicia el programa
     print("----------------------------")
 
     # Si el usuario eligió la operación NOT, solo necesita una variable(A)
-    if operacion == 3:
+    if operacion == '3':
         print("A | NOT A") # Encabezado de la tabla
         for a in [False, True]: # Recorre los valores posibles de A
             print(int(a), "|", int(not a)) # Muestra el resultado de aplicar NOT a la variable A
+        break # Finaliza el programa luego de mostrar la tabla de verdad
 
     # Si elige alguna operación que necesita dos variables
     elif operacion in ['1','2','3','4','5','6','7']: # Verifica si la operación está en el rango de 1 a 7
