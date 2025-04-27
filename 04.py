@@ -1,6 +1,6 @@
 from time import sleep #Importamos la funcion sleep de time 
 
-while True:
+while True: # Inicia el programa
     #Muestra al usuario las operaciones lógicas disponibles
     print("Seleccione una operación lógica:")
     print("1. AND")
