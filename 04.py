@@ -53,8 +53,4 @@ elif operacion in range(1, 8): # Verifica si la operación está en el rango de 
 # Si el usuario no eligue una de las opciones, muestra este mensaje 
 else:
     print("Operación no reconocida. Seleccione una opción entre 1 y 7.") # Mensaje de error
-
-
-
-
-
+# Fin del programa
